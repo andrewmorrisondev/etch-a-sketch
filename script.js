@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////
+// Create Grid
+////////////////////////////////////////////////////////////////
+const playerWindow = document.querySelector(".player-window");
+const newDiv = document.createElement('div');
+
+for (i = 0; i < 256; i++) {
+  const newDiv = document.createElement('div');
+  newDiv.classList.add("little-boxes");
+  playerWindow.appendChild(newDiv);
+}
+////////////////////////////////////////////////////////////////
+// Assign Class to Box on mouseover
+////////////////////////////////////////////////////////////////
+document.querySelectorAll(".little-boxes").forEach(item => {
+  item.addEventListener("mouseover", event => {
+    item.classList.add("mouse-over");
+  })
+});
+////////////////////////////////////////////////////////////////

@@ -1,0 +1,17 @@
+.player-window {
+  width: 360px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.little-boxes {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+.mouse-over {
+  background-color: black;
+}
