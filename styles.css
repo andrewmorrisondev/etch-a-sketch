@@ -1,17 +1,49 @@
+body {
+  background-color: red;
+}
 .player-window {
-  width: 360px;
+  width: 785px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
+  background-color: white;
 }
 .little-boxes {
-  border: 1px solid black;
-  width: 20px;
-  height: 20px;
+  border: 1px solid white;
+  width: 45px;
+  height: 45px;
   padding: 0px;
   margin: 0px;
 }
 .mouse-over {
   background-color: black;
+  border: 1px solid black !important;
+}
+.five-by-five-style {
+  border: 1px solid white;
+  width: 160px;
+  height: 160px;
+  padding: 0px;
+  margin: 0px;
+}
+.sixteen-by-sixteen-style {
+  border: 1px solid white;
+  width: 45px;
+  height: 45px;
+  padding: 0px;
+  margin: 0px;
+}
+.twenty-five-by-twenty-five-style {
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+.fifty-by-fifty-style {
+  border: 1px solid white;
+  width: 13px;
+  height: 13px;
+  padding: 0px;
+  margin: 0px;
 }
